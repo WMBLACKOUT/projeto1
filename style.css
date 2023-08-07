@@ -1,1 +1,14 @@
 
+  a {
+    color: #030303; /* Cor do link */
+  }
+  
+  a:hover {
+    color: #00ffff; /* Nova cor ao passar o mouse */
+  }
+  /* styles.css */
+
+.Titulo {
+    color: rgb(15, 172, 23);
+    text-decoration:underline;
+    }
