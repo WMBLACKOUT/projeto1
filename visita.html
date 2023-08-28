@@ -3,13 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="visita.css">
+    <title>Galeria de Imagens</title>
 </head>
 <body>
-   
-    <br>
-    <p>Aqui ficará o texto de relatório sobre a avisita técnica feita ao Campus de Colorado do Oeste</p>
-    <br>
-    <H1>Aqui ficará a Galeria de fotos</H1>
+  <div class="relatorio"><p></p></div>
+    <div class="container">
+        <h1 class="title">Minha Galeria de Imagens</h1>
+        <div class="gallery">
+            <div class="image-container">
+              <img class="gallery-image" src="1.jpg" alt="Imagem 1">
+              <img class="gallery-image" src="2.jpg" alt="Imagem 2">
+              <img class="gallery-image" src="3.jpg" alt="Imagem 3">
+              <img class="gallery-image" src="4.jpg" alt="Imagem 4">
+              <img class="gallery-image" src="5.jpg" alt="Imagem 5">
+              <img class="gallery-image" src="6.jpg" alt="Imagem 6">
+              <img class="gallery-image" src="7.jpg" alt="Imagem 7">
+              <img class="gallery-image" src="8.jpg" alt="Imagem 8">
+              <img class="gallery-image" src="9.jpg" alt="Imagem 9">
+              <img class="gallery-image" src="10.jpg" alt="Imagem 10">  
+        </div>
+    </div>
+    <div class="modal" id="imageModal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <button class="modal-nav-button" onclick="navigate(-1)">&lt; Anterior</button>
+        <img class="modal-content" id="modalImage">
+        <button class="modal-nav-button" onclick="navigate(1)">Próximo &gt;</button>
+    </div>
+    <script src="visita.js"></script>
 </body>
 </html>
